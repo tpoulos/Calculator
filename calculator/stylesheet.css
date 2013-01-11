@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Monda);
+
+
+body{
+	font-family:Monda;
+	margin:0px;
+	background-color:white;
+}
+.button{
+	border-radius:3px;
+	margin: 3px 1px;
+	width:63px;
+	height:63px;
+	text-align:center;
+	font-size: 18px;
+	line-height: 60px;
+	color:#EEE;
+	display:inline-block;
+	cursor:pointer;
+
+	/*This code makes it so that when the user presses a button multiple times, it does not select the text and cause issues*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.display{
+	border-radius:3px;
+	width:270px;
+	height:60px;
+	text-align:center;
+	font-size:50px;
+	line-height: 60px;
+	color:#EEE;
+	margin: 3px 1px;
+	display:inline-block;
+}
+.calculator-container{
+	position:relative;
+	margin:auto;
+	margin-top:5%;
+	height:420px;
+	width:280px;
+	border-bottom-right-radius: 25px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	border-right:5px solid #25CE63;
+	border-bottom:5px solid #25CE63;
+}
+
+p{
+	line-height: 0px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	font-size: 14px;
+	color:#28D6AD;
+}
+
+
+/*Color declarations*/
+#display{
+	background-color:#28D6AD;
+}
+.button{
+	background-color:#8CF756;
+}
+.button:hover{
+	background-color:#75F733;
+}
+.button:active{
+	background-color:#75F733;
+	box-shadow: 0 0 10px white inset;
+}
+#clear, #mrc, #mplus, #mminus, #divide, #times, #minus, #point, #eq, #plus{
+	background-color:#6AD622;
+}
+#clear:hover, #mrc:hover, #mplus:hover, #mminus:hover, #divide:hover, #times:hover, #minus:hover, #point:hover, #eq:hover, #plus:hover{
+	background-color:#56D600;
+}
