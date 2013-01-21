@@ -73,6 +73,8 @@ var eq = function(){
 	sum = operator(sum, operand);
 	tempDisplay = true;
 	decimalPoint = false;
+	operand = 0;
+	operator = noFunction;
 	updateDisplay();
 	enteringNumber = 0;
 }
